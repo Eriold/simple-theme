@@ -1,0 +1,59 @@
+@media only screen and (max-width: 360px) {
+    header {
+        width: 100%;
+    }
+    header nav {
+        width: 0%;
+        height: 0%;
+        max-width: 400px;
+        position: fixed;
+        background: #393FD0;
+    }
+    header img {
+        width: 120px;
+        display: block;
+        margin: auto;
+    }
+    .menu-bar {
+        display: block;
+        width: 100%;
+        height: 60px;
+    }
+    .menu-bar .bt-menu {
+        display: block;
+        padding: 15px;
+        font-size: 30px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        color: white;
+    }
+    .menu-bar span {
+        float: right;
+    }
+    header nav ul {
+        overflow: hidden;
+        list-style: none;
+    }
+    header nav ul li {
+        display: block;
+        float: none;
+        opacity: 50%;
+    }
+    header nav ul li:hover {
+        opacity: 1.0;
+    }
+    header nav ul li a {
+        color: #ffffff;
+        padding: 20px;
+        text-decoration: none;
+        display: block;
+        font-family: 'Dosis';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    header nav ul li span {
+        margin-right: 10px;
+    }
+}
