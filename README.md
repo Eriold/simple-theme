@@ -1,1 +1,3 @@
-## This is the first commit
+## simple guide
+
+You need using view to Galaxy S5 for see the theme development.
