@@ -1,0 +1,32 @@
+.success-background div label {
+    font-family: "Dosis";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #392F63;
+}
+
+.success-background {
+    width: 80%;
+    height: 300px;
+    background: #37D0C8;
+    margin: 1rem;
+    padding: 1rem;
+    /* IMPORTANTE */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.success-background div {
+    vertical-align: middle;
+    margin: 0px auto;
+}
+
+.success-background div img {
+    margin-left: 10px;
+}
